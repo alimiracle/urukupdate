@@ -3,6 +3,7 @@ if test "$1" = "-S"
 then
 apt-get install $2
 elif test "$1" = "-Syy"
+then
 apt-get update
 elif test "$1" = "-Sy"
 then
